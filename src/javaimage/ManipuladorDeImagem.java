@@ -17,8 +17,6 @@ public class ManipuladorDeImagem {
         this.pathOrigemNewImage = pathOrigemNewImage;
         this.pathDestinoNewImage = pathDestinoNewImage;
         
-        System.out.println(pathOrigem);
-        //
         File imagemOrigem = new File(pathOrigem);
         File imagemNewImage = new File(pathOrigemNewImage);
         
